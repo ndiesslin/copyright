@@ -1,0 +1,256 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+html {
+  height: 100%;
+}
+
+/* line 13, ../sass/screen.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 18, ../sass/screen.scss */
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: lato;
+}
+
+/* line 26, ../sass/screen.scss */
+section {
+  width: 100%;
+}
+
+/* line 30, ../sass/screen.scss */
+#background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(../img/books.png) no-repeat center center;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* line 40, ../sass/screen.scss */
+#section-1 {
+  color: #999;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+/* line 45, ../sass/screen.scss */
+#section-1 h1 {
+  background: rgba(0, 0, 0, 0.9);
+  color: #ececec;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 3em;
+  font-family: lato;
+  font-weight: 300;
+}
+/* line 53, ../sass/screen.scss */
+#section-1 h1 p {
+  font-size: 3em;
+  font-weight: 100;
+}
+
+/* line 59, ../sass/screen.scss */
+#section-2 {
+  opacity: 0.9;
+  background: #111;
+  color: #ececec;
+}
+/* line 63, ../sass/screen.scss */
+#section-2 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 70, ../sass/screen.scss */
+#section-3 {
+  opacity: 0.9;
+  background: #ececec;
+  color: #111;
+}
+/* line 74, ../sass/screen.scss */
+#section-3 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 81, ../sass/screen.scss */
+#section-4 {
+  opacity: 0.9;
+  background: #111;
+  color: #ececec;
+}
+/* line 85, ../sass/screen.scss */
+#section-4 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 92, ../sass/screen.scss */
+#section-5 {
+  opacity: 0.9;
+  background: #ececec;
+  color: #111;
+}
+/* line 96, ../sass/screen.scss */
+#section-5 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 103, ../sass/screen.scss */
+#section-6 {
+  opacity: 0.9;
+  background: #111;
+  color: #ececec;
+}
+/* line 107, ../sass/screen.scss */
+#section-6 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 114, ../sass/screen.scss */
+#section-7 {
+  opacity: 0.9;
+  background: #ececec;
+  color: #111;
+}
+/* line 118, ../sass/screen.scss */
+#section-7 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 125, ../sass/screen.scss */
+#section-8 {
+  opacity: 0.9;
+  background: #111;
+  color: #ececec;
+}
+/* line 129, ../sass/screen.scss */
+#section-8 h1 {
+  text-align: justify;
+  padding: 5% 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+/* line 136, ../sass/screen.scss */
+#section-references {
+  opacity: 0.9;
+  background: #ececec;
+  color: #111;
+}
+/* line 140, ../sass/screen.scss */
+#section-references h1 {
+  text-align: justify;
+  padding: 5% 10% 0 10%;
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+/* line 146, ../sass/screen.scss */
+#section-references ul {
+  padding: 5%;
+}
+/* line 148, ../sass/screen.scss */
+#section-references ul li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+/* line 152, ../sass/screen.scss */
+#section-references ul li a {
+  font-size: 1.25em;
+  margin: 2% 0;
+  color: #111;
+  text-decoration: none;
+}
